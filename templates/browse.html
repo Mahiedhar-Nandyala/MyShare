@@ -1,0 +1,12 @@
+{% extends "base_template.html" %}
+
+{% block content %}
+<div style="margin-bottom:50px;">
+	<label style="margin:30px;margin-left:5px;"><span class="glyphicon glyphicon-folder-open" style="margin-right:10px;"></span>Files:</label>
+	<ul class="list-group">
+		{% for item in itemList %}
+        <li class="list-group-item"><a href="{{ urlFilePath }}/{{ item }}">{{ item }}</a></li>
+		{% endfor %}
+	</ul>
+</div>
+{% endblock %}
