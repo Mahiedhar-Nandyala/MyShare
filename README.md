@@ -4,7 +4,7 @@ A simple web interface that helps you transfer files from one pc to another!
 #### Steps
 > Run the script in the source machine
 ```shell
-$ python myshare.py
+$ python MyShare.py
 ```
 > Make sure the receiver machine is in the same network as the source machine
 
